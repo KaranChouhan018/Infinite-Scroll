@@ -64,7 +64,7 @@ export default function Index() {
     >
       <ambientLight intensity={0.5} />
       <directionalLight intensity={2} position={[0, 2, 3]} />
-      <ScrollControls pages={3}> {/* Adjust the number of pages based on the total length */}
+      <ScrollControls pages={3} infinite> {/* Adjust the number of pages based on the total length */}
         <InfiniteScroll /> {/* Render the infinite scrolling models */}
       </ScrollControls>
     </Canvas>
